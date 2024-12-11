@@ -16,6 +16,13 @@ const bae = {};
 // return just the last element.
 bae.last = function (array, n) {
   // Your code here
+  if( n === undefined) {
+    // return the last element
+    return array[array.length - 1];
+  } else if (n > 0) {
+    // return the last n element
+    
+  }
 };
 
 // Return an array of the first n elements of an array. If n is undefined,
